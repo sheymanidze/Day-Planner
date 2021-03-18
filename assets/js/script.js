@@ -7,8 +7,8 @@ $('#currentDay').text(currentDay);
 //save button
 $(document).ready(function () {
   save.on('click', function () {
-    var tasks = $(this).siblings('.description').val();
-    var hours = $(this).parent().attr('id');
+    var hours = $(this).siblings('.description').val();
+    var tasks = $(this).parent().attr('id');
     console.log($(this))
 
     //save in local storage
@@ -33,6 +33,7 @@ $(document).ready(function () {
     var currentTime = moment().hour();
     console.log(currentTime);
 
+    //loop
     blocks.each(function () {
       var currentBlock = parseInt($(this).attr('id').split('-')[1]);
       console.log(currentBlock)
@@ -60,6 +61,7 @@ $(document).ready(function () {
 
   }
 
+  //run again
   timeTracker();
 
 })

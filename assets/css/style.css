@@ -74,22 +74,15 @@ textarea {
   margin-top: 10px;
 }
 
-/* 
+
 @media screen and (max-width: 766px) {
 
- .col-md-1 {
-   flex: 0 0 8.333333%;
-   max-width: 8.333333%;
- } 
-  
- textarea {
-   min-height: 85px;
-   border: 0;
- }
+  .hour {
+    white-space: none;
+    border-top: none;
+  }
 
- .saveBtn {
-  border: 0;
-  border-radius: 0.25rem;
-  height: 50px;
+  .row {
+    height: 160px;
+  }
 }
-} */

@@ -29,7 +29,7 @@
 ![clear all button deleted saved info from local storage and refreshed the page](assets/images/4.png)
 
 ## Deployment of application
-To run a project, please follow the link [https://sheymanidze.github.io/Day-Planner/.](https://sheymanidze.github.io/Day-Planner/.)
+To run a project, please follow the link [https://sheymanidze.github.io/Day-Planner/](https://sheymanidze.github.io/Day-Planner/)
 
 ## Comments
 
